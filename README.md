@@ -1,5 +1,4 @@
 # Climate_Responsive_Crop_Selection_Global_Dataset
-Global Gridded Climate-Responsive Crop Selection: Sowing Dates and Crop Varieties in a Warming World
 
 This repository contains a newly developed global dataset of climate-responsive crop varieties and sowing dates for six major crops: maize, soybean, winter wheat, spring wheat, rice (season 1), and rice (season 2). The dataset is designed to support research on crop adaptation, food security, and climate impact assessment.
 
