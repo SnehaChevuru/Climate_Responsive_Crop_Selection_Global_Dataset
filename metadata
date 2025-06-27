@@ -11,12 +11,6 @@ Yield	              Crop yield (kg/ha)
 CWR	              Crop water requirement or consumption (mm)
 Biomass	              Total aboveground crop biomass (kg/ha)
 
-**file structure**
-The file structure is as follows, {cropname}_{period}_{condition}.txt
-cropname: Maize, Soybean, Springwheat, Winterwheat, Rice1 and Rice2
-period: one (1961-1980), two (1981-2000), three (2001-2020), four (2021-2040), five (2041-2060), six (2061-2080 and seven (2081-2100)
-condition: irr (Irrigated) and rf (rainfed)
-
 **File Structure**
 Files follow the naming convention:
 {cropname}_{period}_{condition}.txt
