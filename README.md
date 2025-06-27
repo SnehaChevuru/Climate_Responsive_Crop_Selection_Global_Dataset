@@ -30,7 +30,7 @@ Each file includes recommended sowing dates and selected crop varieties under ev
 
 data/ — Contains crop-specific TXT files for each time slice
 
-scripts/ — (optional) Code used for processing, formatting, or analysis
+scripts/ — Code used for processing, formatting, or analysis
 
 metadata/ — Documentation of variables, file structure, and example records
 
