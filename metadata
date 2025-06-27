@@ -1,1 +1,56 @@
-Mete
+**Documentation of Variables**
+Variable	      Description
+Lat	            Latitude of the grid cell (decimal degrees)
+Lon	            Longitude of the grid cell (decimal degrees)
+Cultivar	      Crop variety used; corresponds to variety definitions in data/crop_variety/
+Sowing	        Sowing/planting date (MM-DD format)
+GCM	            Global Climate Model used for the simulation
+RCP	            Climate scenario: RCP-SSP combination (e.g., ssp370, ssp585)
+Year	          Simulation year
+Yield	          Crop yield (kg/ha)
+CWR	            Crop water requirement or consumption (mm)
+Biomass	        Total aboveground crop biomass (kg/ha)
+
+**file structure**
+The file structure is as follows, {cropname}_{period}_{condition}.txt
+cropname: Maize, Soybean, Springwheat, Winterwheat, Rice1 and Rice2
+period: one (1961-1980), two (1981-2000), three (2001-2020), four (2021-2040), five (2041-2060), six (2061-2080 and seven (2081-2100)
+condition: irr (Irrigated) and rf (rainfed)
+
+**File Structure**
+Files follow the naming convention:
+{cropname}_{period}_{condition}.txt
+
+cropname:
+Maize, Soybean, Springwheat, Winterwheat, Rice1, Rice2
+
+period:
+one (1961–1980), two (1981–2000), three (2001–2020), four (2021–2040), five (2041–2060), six (2061–2080), seven (2081–2100)
+
+condition:
+irr = Irrigated
+rf = Rainfed
+
+Example filename:
+Maize_five_irr.txt → Maize data, 2041–2060, irrigated scenario
+
+**How to Access the Data**
+The dataset is provided in tab-delimited .txt format and can be read using pandas:
+
+import pandas as pd
+
+# Load a sample file (e.g., Maize data for 2041–2060, irrigated)
+df = pd.read_csv("Maize_five_irr.txt", sep="\t")
+df.head(10)
+
+Lat     Lon     Cultivar        Sowing  GCM     RCP     Year    Yield   CWR     Biomass
+49.75   -106.75 mag8    05-25   ipsl-cm6a-lr    ssp370  2060    7612.99 598.573 19739.45
+33.25   -115.75 mag7    04-25   ipsl-cm6a-lr    ssp585  2051    2940.68 386.768 10161.2
+42.25   -95.75  mag4    05-20   ipsl-cm6a-lr    ssp585  2050    9324.06 474.566 16373.74
+32.75   -112.25 mag8    04-22   mpi-esm1-2-hr   ssp126  2052    4284.47 555.038 14148.45
+32.25   -93.75  mag4    04-01   ukesm1-0-ll     ssp126  2045    9956.89 376.867 17736.13
+32.25   -94.25  mag3    03-25   gfdl-esm4       ssp126  2046    7174.36 305.221 13555.29
+46.25   -100.25 mag5    05-10   mri-esm2-0      ssp585  2059    8617.01 389.376 16976.52
+42.25   -95.25  mag7    05-01   ukesm1-0-ll     ssp585  2057    5855.93 452.314 15111.25
+43.25   -92.25  mag4    05-20   ipsl-cm6a-lr    ssp370  2056    11229.0 450.767 18771.42
+
