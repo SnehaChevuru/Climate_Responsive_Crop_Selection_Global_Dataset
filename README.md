@@ -4,7 +4,9 @@ This repository contains a newly developed global dataset of climate-responsive 
 
 **Dataset Overview**
 **Spatial coverage:** Global (excluding Greenland)
+
 **Resolution:** 0.5° × 0.5° grid (~64,055 grid cells)
+
 **Temporal coverage:** 1961–2100
 **Time slices:** Seven 20-year periods (e.g., 1961–1980, 1981-2000, 2001-2020, 2021-2040, 2041-2060, 2061-2080 and 2081–2100)
 **Crops included:**
