@@ -28,9 +28,7 @@ Each file includes recommended sowing dates and selected crop varieties under ev
 
 **Repository Contents**
 
-data/ — Contains crop-specific TXT files for each time slice
-
-scripts/ — Code used for processing, formatting, or analysis
+data/ — Contains crop-specific TXT files for each time slice and Crop varieties information 
 
 metadata/ — Documentation of variables, file structure, and example records
 
