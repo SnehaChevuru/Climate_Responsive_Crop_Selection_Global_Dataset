@@ -1,3 +1,14 @@
+## This file is written and formatted in notepad++ in the normal text language. 
+## Please use this program to view this file.
+
+## Author - Sneha Chevuru	
+## Project - 	GoNexus
+## Faculty - Faculty of Geoscience
+## Department - Deparment of Physical Geography 
+## Date - 03-07-2025
+
+------------------------------------------------------------------------------------------------------------ 
+
 # Climate_Responsive_Crop_Selection_Global_Dataset
 
 This repository contains a newly developed global dataset of climate-responsive crop varieties and sowing dates for six major crops: maize, soybean, winter wheat, spring wheat, rice (season 1), and rice (season 2). The dataset is designed to support research on crop adaptation, food security, and climate impact assessment.
