@@ -1,8 +1,8 @@
-## Author - Sneha Chevuru	
-## Project - 	GoNexus
-## Faculty - Faculty of Geoscience
-## Department - Deparment of Physical Geography 
-## Date - 03-07-2025
+# Author - Sneha Chevuru	
+# Project - 	GoNexus
+# Faculty - Faculty of Geoscience
+# Department - Deparment of Physical Geography 
+# Date - 03-07-2025
 
 ------------------------------------------------------------------------------------------------------------ 
 
