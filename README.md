@@ -1,5 +1,3 @@
-# Please use this program to view this file.
-
 ## Author - Sneha Chevuru	
 ## Project - 	GoNexus
 ## Faculty - Faculty of Geoscience
