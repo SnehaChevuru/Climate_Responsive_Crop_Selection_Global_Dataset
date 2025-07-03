@@ -1,4 +1,3 @@
-## This file is written and formatted in notepad++ in the normal text language. 
 ## Please use this program to view this file.
 
 ## Author - Sneha Chevuru	
