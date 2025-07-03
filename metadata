@@ -2,7 +2,7 @@
 Variable	          Description
 Lat	              Latitude of the grid cell (decimal degrees)
 Lon	              Longitude of the grid cell (decimal degrees)
-Cultivar	      Crop variety used; corresponds to variety definitions in data/crop_variety/
+Cultivar	      Crop variety used; corresponds to variety definitions in crop_variety/
 Sowing	              Sowing/planting date (MM-DD format)
 GCM	              Global Climate Model used for the simulation
 RCP	              Climate scenario: RCP-SSP combination (e.g., ssp370, ssp585)
