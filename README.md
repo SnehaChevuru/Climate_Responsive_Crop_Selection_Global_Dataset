@@ -58,6 +58,8 @@ scripts/ - Contains crop-specific masks and scripts to apply spatial crop masks
 
 README.md — This file
 
+LHS sample data used in this study can be accessed via https://doi.org/10.5281/zenodo.18292466
+
 **Citation**
 
 If you use this dataset in your work, please cite the accompanying publication and DOI link. 
