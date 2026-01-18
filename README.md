@@ -48,11 +48,13 @@ Each file includes recommended sowing dates and selected crop varieties under ev
 
 **Repository Contents**
 
-data/ — Contains two zip folder (Irrigated.zip and Rainfed.zip). Each zip folder has crop-specific TXT files for each time slice 
+data/ — Contains two zip folders (Irrigated.zip and Rainfed.zip). Each zip folder has crop-specific TXT files for each time slice 
 
-data/crop_variety/ - Contains crop-specific variety/cultivar infomration  
+data/crop_variety/ - Contains crop-specific variety/cultivar information  
 
 data/metadata/ — Documentation of variables, file structure, and example records
+
+scripts/ - Contains crop-specific masks and scripts to apply spatial crop masks 
 
 README.md — This file
 
