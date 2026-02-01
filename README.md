@@ -132,7 +132,7 @@ README.md — This file
 
 ## 9. File Naming Convention   
 
-{cropname}_{period}_{condition}.txt
+{cropname}\_{period}\_{condition}.txt
 
 **cropname:** Maize, Soybean, Springwheat, Winterwheat, Rice1, Rice2
 
@@ -141,24 +141,25 @@ README.md — This file
 **condition:** `irr` = Irrigated and `rf` = Rainfed
 
 **Example filename:**
-Maize_five_irr.txt → Maize data, 2041–2060, irrigated scenario
+Maize_five_irr.txt - Maize data, 2041–2060, irrigated scenario
 
 ---
 
 ## 10. Variable Description    
 
 **Documentation of Variables**
-Variable	          Description
-Lat	              Latitude of the grid cell (decimal degrees)
-Lon	              Longitude of the grid cell (decimal degrees)
-Cultivar	      Crop variety used; corresponds to variety definitions in data/crop_variety/
-Sowing	              Sowing/planting date (MM-DD format)
-GCM	              Global Climate Model used for the simulation
-RCP	              Climate scenario: RCP-SSP combination (e.g., ssp370, ssp585)
-Year	              Simulation year
-Yield	              Crop yield (kg/ha)
-CWR	              Crop water requirement or consumption (mm)
-Biomass	              Total aboveground crop biomass (kg/ha)
+|Variable	|          Description|
+|----------|-------------|
+|Lat	   |           Latitude of the grid cell (decimal degrees)|
+|Lon	    |          Longitude of the grid cell (decimal degrees)|
+|Cultivar	 |     Crop variety used; corresponds to variety definitions in data/crop_variety/|
+|Sowing	    |          Sowing/planting date (MM-DD format)|
+|GCM	       |       Global Climate Model used for the simulation|
+|RCP	        |      Climate scenario: RCP-SSP combination (e.g., ssp370, ssp585)|
+|Year	        |      Simulation year|
+|Yield	       |       Crop yield (kg/ha)|
+|CWR	         |     Crop water requirement or consumption (mm)|
+|Biomass	     |         Total aboveground crop biomass (kg/ha)|
 
 ---
 
@@ -172,7 +173,6 @@ import pandas as pd
 df = pd.read_csv("Maize_five_irr.txt", sep="\t")
 df.head()
 
-
 Lat     Lon     Cultivar        Sowing  GCM     RCP     Year    Yield   CWR     Biomass
 49.75   -106.75 mag8    05-25   ipsl-cm6a-lr    ssp370  2060    7612.99 598.573 19739.45
 33.25   -115.75 mag7    04-25   ipsl-cm6a-lr    ssp585  2051    2940.68 386.768 10161.2
@@ -184,8 +184,8 @@ Lat     Lon     Cultivar        Sowing  GCM     RCP     Year    Yield   CWR     
 42.25   -95.25  mag7    05-01   ukesm1-0-ll     ssp585  2057    5855.93 452.314 15111.25
 43.25   -92.25  mag4    05-20   ipsl-cm6a-lr    ssp370  2056    11229.0 450.767 18771.42
 
+```
 ---
-
 ## 12. Code Availability
 
   Scripts used to generate and process the dataset are available on GitHub and are referenced in the accompanying manuscript.
@@ -197,5 +197,6 @@ Lat     Lon     Cultivar        Sowing  GCM     RCP     Year    Yield   CWR     
 If you use this dataset in your work, please cite the accompanying publication and DOI link.
 https://doi.org/10.24416/UU01-8V0A4N
 
+---
 
 
